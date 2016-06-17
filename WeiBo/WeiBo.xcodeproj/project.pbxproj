@@ -7,25 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9013296B1D145F8A00F45B18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9013296A1D145F8A00F45B18 /* main.m */; };
-		9013296E1D145F8A00F45B18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9013296D1D145F8A00F45B18 /* AppDelegate.m */; };
-		901329711D145F8A00F45B18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 901329701D145F8A00F45B18 /* ViewController.m */; };
 		901329741D145F8A00F45B18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 901329721D145F8A00F45B18 /* Main.storyboard */; };
 		901329761D145F8A00F45B18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 901329751D145F8A00F45B18 /* Assets.xcassets */; };
 		901329791D145F8A00F45B18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 901329771D145F8A00F45B18 /* LaunchScreen.storyboard */; };
+		9013298A1D14630900F45B18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 901329871D14630900F45B18 /* AppDelegate.m */; };
+		9013298B1D14630900F45B18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 901329881D14630900F45B18 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		901329661D145F8A00F45B18 /* WeiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9013296A1D145F8A00F45B18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9013296C1D145F8A00F45B18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9013296D1D145F8A00F45B18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9013296F1D145F8A00F45B18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		901329701D145F8A00F45B18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		901329731D145F8A00F45B18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		901329751D145F8A00F45B18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		901329781D145F8A00F45B18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9013297A1D145F8A00F45B18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		901329861D14630900F45B18 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		901329871D14630900F45B18 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		901329881D14630900F45B18 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +55,7 @@
 		901329681D145F8A00F45B18 /* WeiBo */ = {
 			isa = PBXGroup;
 			children = (
-				9013296C1D145F8A00F45B18 /* AppDelegate.h */,
-				9013296D1D145F8A00F45B18 /* AppDelegate.m */,
-				9013296F1D145F8A00F45B18 /* ViewController.h */,
-				901329701D145F8A00F45B18 /* ViewController.m */,
+				901329801D14630900F45B18 /* Classes */,
 				901329721D145F8A00F45B18 /* Main.storyboard */,
 				901329751D145F8A00F45B18 /* Assets.xcassets */,
 				901329771D145F8A00F45B18 /* LaunchScreen.storyboard */,
@@ -74,9 +68,66 @@
 		901329691D145F8A00F45B18 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9013296A1D145F8A00F45B18 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		901329801D14630900F45B18 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				901329811D14630900F45B18 /* Discover-发现 */,
+				901329821D14630900F45B18 /* Home-首页 */,
+				901329831D14630900F45B18 /* Main-主要 */,
+				901329841D14630900F45B18 /* Messagecenter-消息 */,
+				901329851D14630900F45B18 /* Other-其他 */,
+				901329891D14630900F45B18 /* Profile-我 */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		901329811D14630900F45B18 /* Discover-发现 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Discover-发现";
+			sourceTree = "<group>";
+		};
+		901329821D14630900F45B18 /* Home-首页 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Home-首页";
+			sourceTree = "<group>";
+		};
+		901329831D14630900F45B18 /* Main-主要 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Main-主要";
+			sourceTree = "<group>";
+		};
+		901329841D14630900F45B18 /* Messagecenter-消息 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Messagecenter-消息";
+			sourceTree = "<group>";
+		};
+		901329851D14630900F45B18 /* Other-其他 */ = {
+			isa = PBXGroup;
+			children = (
+				901329861D14630900F45B18 /* AppDelegate.h */,
+				901329871D14630900F45B18 /* AppDelegate.m */,
+				901329881D14630900F45B18 /* main.m */,
+			);
+			path = "Other-其他";
+			sourceTree = "<group>";
+		};
+		901329891D14630900F45B18 /* Profile-我 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Profile-我";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +201,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				901329711D145F8A00F45B18 /* ViewController.m in Sources */,
-				9013296E1D145F8A00F45B18 /* AppDelegate.m in Sources */,
-				9013296B1D145F8A00F45B18 /* main.m in Sources */,
+				9013298B1D14630900F45B18 /* main.m in Sources */,
+				9013298A1D14630900F45B18 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +314,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = WeiBo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-20it.com.WeiBo";
@@ -275,6 +326,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = WeiBo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-20it.com.WeiBo";
@@ -301,6 +353,7 @@
 				9013297F1D145F8A00F45B18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
