@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  WeiBo
+//  BuDeJie15
 //
-//  Created by 甘明强 on 16/6/18.
-//  Copyright © 2016年 小码哥. All rights reserved.
+//  Created by xiaomage on 16/6/14.
+//  Copyright © 2016年 seemygo. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -10,8 +10,15 @@
 		901329741D145F8A00F45B18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 901329721D145F8A00F45B18 /* Main.storyboard */; };
 		901329761D145F8A00F45B18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 901329751D145F8A00F45B18 /* Assets.xcassets */; };
 		901329791D145F8A00F45B18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 901329771D145F8A00F45B18 /* LaunchScreen.storyboard */; };
-		9013298A1D14630900F45B18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 901329871D14630900F45B18 /* AppDelegate.m */; };
-		9013298B1D14630900F45B18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 901329881D14630900F45B18 /* main.m */; };
+		906F45771D14654800DA2181 /* GMQHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 906F45761D14654800DA2181 /* GMQHomeViewController.m */; };
+		906F457A1D14657D00DA2181 /* GMQMessageCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 906F45791D14657D00DA2181 /* GMQMessageCenterViewController.m */; };
+		906F457D1D14659E00DA2181 /* GMQDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 906F457C1D14659E00DA2181 /* GMQDiscoverViewController.m */; };
+		906F45801D1465CC00DA2181 /* GMQProfileVIewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 906F457F1D1465CC00DA2181 /* GMQProfileVIewController.m */; };
+		906F45881D14683700DA2181 /* GMQPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 906F45871D14683700DA2181 /* GMQPublishViewController.m */; };
+		906F458A1D14685A00DA2181 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 906F45891D14685A00DA2181 /* main.m */; };
+		906F45911D146E4F00DA2181 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 906F45901D146E4F00DA2181 /* UIImage+Image.m */; };
+		90964F941D14641500574DB5 /* GMQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90964F931D14641500574DB5 /* GMQTabBarController.m */; };
+		90964F971D14644800574DB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90964F961D14644800574DB5 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,9 +27,23 @@
 		901329751D145F8A00F45B18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		901329781D145F8A00F45B18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9013297A1D145F8A00F45B18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		901329861D14630900F45B18 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		901329871D14630900F45B18 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		901329881D14630900F45B18 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		906F45751D14654800DA2181 /* GMQHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMQHomeViewController.h; sourceTree = "<group>"; };
+		906F45761D14654800DA2181 /* GMQHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMQHomeViewController.m; sourceTree = "<group>"; };
+		906F45781D14657D00DA2181 /* GMQMessageCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMQMessageCenterViewController.h; sourceTree = "<group>"; };
+		906F45791D14657D00DA2181 /* GMQMessageCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMQMessageCenterViewController.m; sourceTree = "<group>"; };
+		906F457B1D14659E00DA2181 /* GMQDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMQDiscoverViewController.h; sourceTree = "<group>"; };
+		906F457C1D14659E00DA2181 /* GMQDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMQDiscoverViewController.m; sourceTree = "<group>"; };
+		906F457E1D1465CC00DA2181 /* GMQProfileVIewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMQProfileVIewController.h; sourceTree = "<group>"; };
+		906F457F1D1465CC00DA2181 /* GMQProfileVIewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMQProfileVIewController.m; sourceTree = "<group>"; };
+		906F45861D14683700DA2181 /* GMQPublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMQPublishViewController.h; sourceTree = "<group>"; };
+		906F45871D14683700DA2181 /* GMQPublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMQPublishViewController.m; sourceTree = "<group>"; };
+		906F45891D14685A00DA2181 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		906F458F1D146E4F00DA2181 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		906F45901D146E4F00DA2181 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		90964F921D14641500574DB5 /* GMQTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMQTabBarController.h; sourceTree = "<group>"; };
+		90964F931D14641500574DB5 /* GMQTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMQTabBarController.m; sourceTree = "<group>"; };
+		90964F951D14644800574DB5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		90964F961D14644800574DB5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +76,7 @@
 		901329681D145F8A00F45B18 /* WeiBo */ = {
 			isa = PBXGroup;
 			children = (
-				901329801D14630900F45B18 /* Classes */,
+				90964F7C1D1463A300574DB5 /* Classes */,
 				901329721D145F8A00F45B18 /* Main.storyboard */,
 				901329751D145F8A00F45B18 /* Assets.xcassets */,
 				901329771D145F8A00F45B18 /* LaunchScreen.storyboard */,
@@ -72,62 +93,236 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		901329801D14630900F45B18 /* Classes */ = {
+		906F45821D14681D00DA2181 /* publish-发布 */ = {
 			isa = PBXGroup;
 			children = (
-				901329811D14630900F45B18 /* Discover-发现 */,
-				901329821D14630900F45B18 /* Home-首页 */,
-				901329831D14630900F45B18 /* Main-主要 */,
-				901329841D14630900F45B18 /* Messagecenter-消息 */,
-				901329851D14630900F45B18 /* Other-其他 */,
-				901329891D14630900F45B18 /* Profile-我 */,
+				906F45831D14681D00DA2181 /* Controller */,
+				906F45841D14681D00DA2181 /* Model */,
+				906F45851D14681D00DA2181 /* View */,
+			);
+			path = "publish-发布";
+			sourceTree = "<group>";
+		};
+		906F45831D14681D00DA2181 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				906F45861D14683700DA2181 /* GMQPublishViewController.h */,
+				906F45871D14683700DA2181 /* GMQPublishViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		906F45841D14681D00DA2181 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		906F45851D14681D00DA2181 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		906F458B1D146C8E00DA2181 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				906F458F1D146E4F00DA2181 /* UIImage+Image.h */,
+				906F45901D146E4F00DA2181 /* UIImage+Image.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		90964F7C1D1463A300574DB5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				90964F811D1463A300574DB5 /* Home-首页 */,
+				90964F891D1463A300574DB5 /* Messagecenter-消息 */,
+				906F45821D14681D00DA2181 /* publish-发布 */,
+				90964F7D1D1463A300574DB5 /* Discover-发现 */,
+				90964F8E1D1463A300574DB5 /* Profile-我 */,
+				90964F851D1463A300574DB5 /* Main-主要 */,
+				90964F8D1D1463A300574DB5 /* Other-其他 */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		901329811D14630900F45B18 /* Discover-发现 */ = {
+		90964F7D1D1463A300574DB5 /* Discover-发现 */ = {
 			isa = PBXGroup;
 			children = (
+				90964F7E1D1463A300574DB5 /* Controller */,
+				90964F7F1D1463A300574DB5 /* Model */,
+				90964F801D1463A300574DB5 /* View */,
 			);
 			path = "Discover-发现";
 			sourceTree = "<group>";
 		};
-		901329821D14630900F45B18 /* Home-首页 */ = {
+		90964F7E1D1463A300574DB5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				906F457B1D14659E00DA2181 /* GMQDiscoverViewController.h */,
+				906F457C1D14659E00DA2181 /* GMQDiscoverViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		90964F7F1D1463A300574DB5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		90964F801D1463A300574DB5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		90964F811D1463A300574DB5 /* Home-首页 */ = {
+			isa = PBXGroup;
+			children = (
+				90964F821D1463A300574DB5 /* Controller */,
+				90964F831D1463A300574DB5 /* Model */,
+				90964F841D1463A300574DB5 /* View */,
 			);
 			path = "Home-首页";
 			sourceTree = "<group>";
 		};
-		901329831D14630900F45B18 /* Main-主要 */ = {
+		90964F821D1463A300574DB5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				906F45751D14654800DA2181 /* GMQHomeViewController.h */,
+				906F45761D14654800DA2181 /* GMQHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		90964F831D1463A300574DB5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		90964F841D1463A300574DB5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		90964F851D1463A300574DB5 /* Main-主要 */ = {
+			isa = PBXGroup;
+			children = (
+				90964F861D1463A300574DB5 /* Controller */,
+				90964F871D1463A300574DB5 /* Model */,
+				90964F881D1463A300574DB5 /* View */,
 			);
 			path = "Main-主要";
 			sourceTree = "<group>";
 		};
-		901329841D14630900F45B18 /* Messagecenter-消息 */ = {
+		90964F861D1463A300574DB5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				90964F921D14641500574DB5 /* GMQTabBarController.h */,
+				90964F931D14641500574DB5 /* GMQTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		90964F871D1463A300574DB5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		90964F881D1463A300574DB5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		90964F891D1463A300574DB5 /* Messagecenter-消息 */ = {
+			isa = PBXGroup;
+			children = (
+				90964F8A1D1463A300574DB5 /* Controller */,
+				90964F8B1D1463A300574DB5 /* Model */,
+				90964F8C1D1463A300574DB5 /* View */,
 			);
 			path = "Messagecenter-消息";
 			sourceTree = "<group>";
 		};
-		901329851D14630900F45B18 /* Other-其他 */ = {
+		90964F8A1D1463A300574DB5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				901329861D14630900F45B18 /* AppDelegate.h */,
-				901329871D14630900F45B18 /* AppDelegate.m */,
-				901329881D14630900F45B18 /* main.m */,
+				906F45781D14657D00DA2181 /* GMQMessageCenterViewController.h */,
+				906F45791D14657D00DA2181 /* GMQMessageCenterViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		90964F8B1D1463A300574DB5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		90964F8C1D1463A300574DB5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		90964F8D1D1463A300574DB5 /* Other-其他 */ = {
+			isa = PBXGroup;
+			children = (
+				906F458B1D146C8E00DA2181 /* Category */,
+				906F45891D14685A00DA2181 /* main.m */,
+				90964F951D14644800574DB5 /* AppDelegate.h */,
+				90964F961D14644800574DB5 /* AppDelegate.m */,
 			);
 			path = "Other-其他";
 			sourceTree = "<group>";
 		};
-		901329891D14630900F45B18 /* Profile-我 */ = {
+		90964F8E1D1463A300574DB5 /* Profile-我 */ = {
+			isa = PBXGroup;
+			children = (
+				90964F8F1D1463A300574DB5 /* Controller */,
+				90964F901D1463A300574DB5 /* Model */,
+				90964F911D1463A300574DB5 /* View */,
+			);
+			path = "Profile-我";
+			sourceTree = "<group>";
+		};
+		90964F8F1D1463A300574DB5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				906F457E1D1465CC00DA2181 /* GMQProfileVIewController.h */,
+				906F457F1D1465CC00DA2181 /* GMQProfileVIewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		90964F901D1463A300574DB5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "Profile-我";
+			path = Model;
+			sourceTree = "<group>";
+		};
+		90964F911D1463A300574DB5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +351,7 @@
 		9013295E1D145F8A00F45B18 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = GMQ;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "小码哥";
 				TargetAttributes = {
@@ -201,8 +397,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9013298B1D14630900F45B18 /* main.m in Sources */,
-				9013298A1D14630900F45B18 /* AppDelegate.m in Sources */,
+				90964F971D14644800574DB5 /* AppDelegate.m in Sources */,
+				906F45881D14683700DA2181 /* GMQPublishViewController.m in Sources */,
+				906F45801D1465CC00DA2181 /* GMQProfileVIewController.m in Sources */,
+				906F45911D146E4F00DA2181 /* UIImage+Image.m in Sources */,
+				90964F941D14641500574DB5 /* GMQTabBarController.m in Sources */,
+				906F45771D14654800DA2181 /* GMQHomeViewController.m in Sources */,
+				906F457A1D14657D00DA2181 /* GMQMessageCenterViewController.m in Sources */,
+				906F458A1D14685A00DA2181 /* main.m in Sources */,
+				906F457D1D14659E00DA2181 /* GMQDiscoverViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

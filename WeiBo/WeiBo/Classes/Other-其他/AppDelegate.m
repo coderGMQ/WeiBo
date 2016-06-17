@@ -1,12 +1,14 @@
 //
 //  AppDelegate.m
-//  WeiBo
+//  BuDeJie15
 //
-//  Created by 甘明强 on 16/6/18.
-//  Copyright © 2016年 小码哥. All rights reserved.
+//  Created by xiaomage on 16/6/14.
+//  Copyright © 2016年 seemygo. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "GMQTabBarController.h"
+// 封装思想: 自己的事情自己管理
 
 @interface AppDelegate ()
 
@@ -14,9 +16,24 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    // 1.创建窗口
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    // 2.设置窗口根控制器
+    // UITabBarController切换原理,点击下面的按钮,把对应的子控制器的view添加上去
+    GMQTabBarController *tabBarController = [[GMQTabBarController alloc] init];
+    self.window.rootViewController = tabBarController;
+    
+    // 3.显示窗口
+    // 窗口要显示的时候,就会把窗口的根控制器的view添加到窗口上
+    // makeKeyAndVisible:
+    // makeKey: 成为应用程序的主窗口
+    // Visible: hiddle = No
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
